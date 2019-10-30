@@ -1,1 +1,7 @@
-# skyhacks_2019
+# skyhacks weedcoders
+
+### Skyhacks AI Hackathon
+
+---
+Repo with code from Skyhacks AI hackathon 2019. 
+

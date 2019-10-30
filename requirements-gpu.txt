@@ -1,0 +1,7 @@
+tensorflow-gpu==1.13.1
+tqdm
+pandas
+numpy
+imgaug
+matplotlib
+efficientnet
