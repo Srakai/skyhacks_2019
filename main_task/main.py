@@ -1,9 +1,3 @@
-"""
-This file contain the execute file with.
-Only after-learning functions are contain here.
-At this moment, all libraries are import here, however at the final version it will be changed.
-"""
-from model import ModelCreation
 from generator import DataGenerator
 from utils import dbg, get_image_id_from_path
 import matplotlib.pyplot as plt
@@ -12,7 +6,6 @@ import argparse
 from tensorflow.keras.callbacks import *
 import data_preparation
 import cv2
-import wandb
 import tensorflow as tf
 from tensorflow.keras.callbacks import ReduceLROnPlateau, ModelCheckpoint
 

@@ -1,12 +1,3 @@
-"""
-model python file contain three classes at this moment.
-ModelPreparation():
-    - contain methods necessary to preapere data and model to learning process
-
-ModelCreation():
-    - contain methods necessary to create model. In particular create_model() function.
-CyclicR(Callback):
-"""
 import numpy as np
 import generator
 from tensorflow.keras.layers import GlobalAveragePooling2D
