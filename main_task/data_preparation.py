@@ -5,7 +5,6 @@ from glob import glob
 import pandas as pd
 import os
 import numpy as np
-from sklearn.preprocessing import OneHotEncoder
 import os
 
 data_path = './data'
@@ -68,7 +67,6 @@ def labels_generation(data_path, labels_path):
     # one hot
     df_labels_no_val['task2_class'] = df_labels_no_val['task2_class'].apply(lambda x: classes.index(x))
 
-    ohe = OneHotEncoder(sparse=False)
 
     out = {}
     for index, row in df_labels_no_val.iterrows():
